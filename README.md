@@ -1,14 +1,11 @@
 <h1>
   Firebase React Admin Biolerplate <br><sup><i>incl. GitHub Actions deployment</i></sup><br>
-  <a href="https://discord.gg/uSv2EZ"><img src="https://img.shields.io/badge/chat-Discord-green.svg?style=social&amp;maxAge=3600" height="20"></a>
 </h1>
 
 **Firebase React Admin Biolerplate** is a project template (aka, boilerplate) for building
 modern, scalable web applications with React using serverless infrastructure
 provided by <a href="https://console.firebase.google.com/">Google Firebase</a>.
 It allows you to save time and build upon a solid foundation and design patterns.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Tech Stack
 
@@ -35,7 +32,7 @@ Just clone the repo, update environment variables in `.env` and/or `.env.local` 
 hacking:
 
 ```bash
-$ git clone git@github.com:nightillusions/react-firebase-material-admin.git MyApp
+$ git clone https://github.com/astrohunter62/react-typescript-firebase-admin.git MyApp
 $ cd MyApp
 $ yarn                             # Installs dependencies
 $ yarn start                       # Compile the app and opens it in a browser with "live reload"
@@ -45,18 +42,13 @@ Then open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>
 
 <p align='center'><img src='https://camo.githubusercontent.com/506a5a0a33aebed2bf0d24d3999af7f582b31808/687474703a2f2f692e696d6775722e636f6d2f616d794e66434e2e706e67' width='600' alt='npm start'></p>
 
-### How to Deploy
-
-For more information refer to the [Deployment](https://github.com/nightillusions/react-firebase-material-admin/wiki/Deployment)
-guide in the project's Wiki.
-
 ### How to Update
 
 If you keep the original Git history after cloning this repo, you can always fetch and merge
 the recent updates back into your project by running:
 
 ```bash
-$ git remote add frab git@github.com:nightillusions/react-firebase-material-admin.git
+$ git remote add frab https://github.com/astrohunter62/react-typescript-firebase-admin.git
 $ git checkout master
 $ git fetch frab
 $ git merge frab/master
@@ -69,12 +61,9 @@ repository, otherwise your project may differ too much from the base/upstream re
 ### License
 
 Copyright © 2020 Pascal Jordin. This source code is licensed under the MIT license found in
-the [LICENSE.txt](https://github.com/nightillusions/react-firebase-material-admin/blob/master/LICENSE.txt) file.
+the [LICENSE.txt](https://github.com/astrohunter62/react-firebase-material-admin/blob/master/LICENSE.txt) file.
 
 ---
-
-Made with ♥ by Pascal Jordin ([website](https://jordin.eu))
-[Get in touch!](https://discord.gg/7EWVsCx)
 
 [cra]: https://github.com/facebook/create-react-app
 [cradocs]: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
